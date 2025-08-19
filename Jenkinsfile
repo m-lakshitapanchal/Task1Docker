@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-creds') // Jenkins credentials ID
-        DOCKER_IMAGE = "lakshitap/paytm-registration"
+        DOCKER_IMAGE = "lakshitap/paytm-project"
     }
 
     stages {
